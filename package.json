@@ -1,0 +1,23 @@
+{
+  "name": "FlameFox-Browser",
+  "version": "1.0.0",
+  "description": "A very light browser based on Electron what prioritizes privacy and speed.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "FlameFox",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.example.my-electron-browser",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  }
+}
